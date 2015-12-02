@@ -4,3 +4,10 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'pry'
+gem 'rake'
+
+gem 'activesupport'
+
+group :development, :test do
+  gem 'byebug'
+end
